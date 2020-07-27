@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8750280a-2985-4ce1-9bfb-4354f4d1f84b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ThemeContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595851096640</updated>
-      <workItem from="1595851098640" duration="7361000" />
+      <workItem from="1595851098640" duration="9106000" />
     </task>
     <task id="LOCAL-00001" summary="template of project">
       <created>1595854093088</created>
@@ -73,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595856002193</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="check component Provider and Consumer&#10;-&gt; usage with dynamic value">
+      <created>1595864370620</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595864370620</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,7 +87,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="template of project" />
     <MESSAGE value="check component Provider and Consumer&#10;-&gt; usage with constant value" />
-    <option name="LAST_COMMIT_MESSAGE" value="check component Provider and Consumer&#10;-&gt; usage with constant value" />
+    <MESSAGE value="check component Provider and Consumer&#10;-&gt; usage with dynamic value" />
+    <option name="LAST_COMMIT_MESSAGE" value="check component Provider and Consumer&#10;-&gt; usage with dynamic value" />
   </component>
   <component name="WindowStateProjectService">
     <state x="450" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595852809812">
@@ -93,13 +99,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595851686319" />
-    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1595856001598">
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1595864370050">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595856001598" />
-    <state x="275" y="112" key="Vcs.Push.Dialog.v2" timestamp="1595856004667">
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595864370050" />
+    <state x="275" y="112" key="Vcs.Push.Dialog.v2" timestamp="1595864372340">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="112" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595856004667" />
+    <state x="275" y="112" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595864372340" />
   </component>
 </project>

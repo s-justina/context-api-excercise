@@ -1,5 +1,5 @@
-import React from "react";
-import {ThemeConsumer} from './ThemeContext';
+import React, {useContext} from "react";
+import {ThemeConsumer, ThemeContext} from './ThemeContext';
 
 const styles = {
     dark: {
@@ -13,6 +13,8 @@ const styles = {
 };
 
 const Button = ({children})=>{
+    const context = useContext(ThemeContext);
+    console.log(context);
     return(
         <div>
             <ThemeConsumer>
@@ -22,7 +24,9 @@ const Button = ({children})=>{
                 </button>
                 )}
             </ThemeConsumer>
-
+            <button style={styles[context]}>
+                {children} {context}
+            </button>
         </div>
     )
 };
