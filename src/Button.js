@@ -1,4 +1,5 @@
 import React from "react";
+import {ThemeContext} from "./App";
 
 const styles = {
     dark: {
@@ -12,12 +13,16 @@ const styles = {
 };
 
 const Button = ({children, theme})=>{
-    console.log(children)
     return(
         <div>
-            <button style={styles[theme]}>
-                {children} {theme}
-            </button>
+            <ThemeContext.Consumer>
+                {value =>(
+                <button style={styles[value]}>
+                    {children} {value}
+                </button>
+                )}
+            </ThemeContext.Consumer>
+
         </div>
     )
 };
